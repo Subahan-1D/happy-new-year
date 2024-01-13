@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Merriweather', serif;
+    
+}
+p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.container{
+   
+        width: 75%;
+        max-width: 1440px;
+        margin: 0 auto;
+}
+img{
+    max-width: 100%;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.text.left{
+    text-align: left;
+}
+/* header section */
+.banner{
+    background-image: url('./image/Banner\ Image.png');
+    padding: 200px;
+    background-repeat: no-repeat;
+}
+.header-text {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 200;
+}
+.header-text h1{
+    color: #fff;
+    font-size: 90px;
+    font-weight: 200;
+    font-weight: bold;
+}
+/* new year */
+.discount .discount-text *{
+    margin-bottom: 10px;
+}
+.discount-text h1{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.discount-text h2{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.discount-text p{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.discount-img img{
+    margin-top: 20px;
+}
+/* new year */
+.newyear{
+    background-image: url('./image/Vectorrr.png');
+    padding: 220px 100px;
+    background-repeat: no-repeat;
+}
+.newyear{
+    display: flex;
+    justify-content: space-between;
+}
+.section-heading h2{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 88px; 
+}
+.section-heading h6{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+/* new park */
+.new-park{
+    background: rgba(229, 84, 115, 0.10);
+   padding: 60px 0;
+}
+.new-park h4 span{
+    color: #F00;
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    
+}
+.new-park h4 {
+    color: #070211;
+    
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+button{
+    padding: 10px 15px;
+    background: red;
+    border: none;
+    color: white;
+    font-size: 22px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+/* happy */
+.happy *{
+    margin-bottom: 10px;
+}
+.happy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    gap: 30px;
+}
+.comming-text{
+    width: 550px;
+}
+.comming-text h4{
+    color: #F00;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+.comming-text h3{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.comming-text h6{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 16px;
+
+}
+.comming-img{}
+.comming-img img{
+    border: 5px solid red;
+    border-radius: 60%;
+    width: 500px;
+    height: auto;
+}
+.comming-year h4{
+    color: #F00;
+    font-size: 20px;
+    font-weight: 500;
+}
+.comming-year h6{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 16px;
+}
+.comming-year img{
+    width: 120px;
+    height: 120px;
+}
+/* holiday */
+.holiday-img{
+    display: flex;
+}
+
+/* protfolio */
+.protfolio-text h4{
+    color: #F00;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.protfolio-text h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.protfolio-text h6{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+}
+
+.prot *{
+    margin-bottom: 10px;
+}
+.protfolio-img{
+    display: flex;
+    gap: 15px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* bjijg */
+.big{
+    display: inline-flex;
+    justify-content: space-around;
+    width: 800px;
+}
+.slow{
+    display: end;
+}
+
+.linked img{
+    width: 64px;
+    height: 64px;
+    text-align: center;
+}
+.copy{
+    display: inline-flex;
+    width: 800px;
+    justify-content: space-around;
+}
+/* subscribe */
+.newslatter{
+    background: rgba(229, 84, 115, 0.10);
+    padding: 60px 0;
+}
+/* .newe-img{
+    width: 150px;
+    height: 150px;
+    
+} */
+.sub h1{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.sub h5{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    width: 900px;
+}
+button{
+    
+}
+.btn{
+    padding: 20px 15px;
+    border: none;
+    color: white;
+    font-size: 22px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    width: 210px;
+    height: 72px;
+}
+.newslatter form{
+    max-width: 700px;
+    margin: 20px auto;
+    display: flex;
+    gap: 10px;
+}
+form input{
+    flex-grow: 1;
+    border-radius: 10px 10px 10px 10px;
+    border: none;
+    padding: 8px;
+    outline: none;
+    font-size: 16px;
+}
+/* fotter */
+.foot {
+    background: black;
+    padding: 140px 0;
+    margin-bottom: 50px auto;
+}
+.big{
+    color: white;
+    font-size: 25px;
+    display: flex;
+    width: 900px;
+    margin-bottom: 18px;
+
+    
+}
+.small{
+    width: 220px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    
+}
+.big h4{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 166.667% */
+}
+.slow {
+    text-align: right;
+}
+.copy{
+    color: #ccc1c1;
+    padding: 20px 0;
+    font-size: 30px;
+}
+.linked  img{
+    display: inline-block;
+    padding: 40px 0;
+    color: black;
+   justify-content: space-around;
+}
+.slow h6 span{
+    margin-right: 5px;
+    margin: 5px;
+}
